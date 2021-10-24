@@ -12,7 +12,7 @@ h1 {
 
 
 
-.topnav {
+.topnav, .footerbar {
   background-color: grey;
  overflow: hidden;
 }
@@ -31,7 +31,7 @@ display: block;
 }
 
 
- {topnav a.active {
+ .topnav a.active {
   background-color: #04AA6D
 ;
   color: white;
