@@ -1,0 +1,46 @@
+a {
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topnav {
+  background-color: grey;
+ overflow: hidden;
+}
+.topnav a {
+ float: left;
+  color: #F2F2F2;
+;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ font-size: 17px;
+}
+
+
+ {topnav a.active {
+  background-color: #04AA6D
+;
+  color: white;
+}
+
+.menu a, .footbar{
+  background-color:grey;
+  margin:0%;
+  padding:0%;
+  overflow: hidden;
+}
+
+ .menu a, .footbar a{
+  display:block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  float: left;
+}
+
+ .menu a, .footbar a:hover{
+  background-color: crimson;
+
+}
