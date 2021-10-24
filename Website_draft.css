@@ -1,5 +1,5 @@
 body{
-  background-color: lightblue;
+  background-color: #00e1d9;
   text-align: justify;
 }
 
@@ -10,7 +10,19 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
 
+.five {
+  background-color: white;
+}
+
+#polluted {
+  height:250px;
+  width: 400px;
+}
 
 .topnav, .footerbar {
   background-color: grey;
@@ -37,22 +49,6 @@ display: block;
   color: white;
 }
 
-.menu a, .footbar{
-  background-color:grey;
-  margin:0%;
-  padding:0%;
-  overflow: hidden;
-}
-
- .menu a, .footbar a{
-  display:block;
-  padding: 14px 16px;
-  color: white;
-  text-decoration: none;
-  float: left;
-}
-
- .menu a, .footbar a:hover{
-  background-color: crimson;
-
+.topnav a:hover, .footerbar a:hover  {
+  background-color: steelblue;
 }

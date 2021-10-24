@@ -10,38 +10,27 @@ h1 {
   text-align: center;
 }
 
-a {
-  color: purple;
-}
-
-#polluted {
-  height: 40%;
-  width: 30%;
-  text-align: center;
-}
-.topnav a:hover {
- background-color: #blue;
- color: black;
-}
-
-
 .two {
   font-size: 17px;
 }
-a {
-  background-color: grey;
-  margin: 0px;
-  padding: 0px;
+
+#polluted {
+  height:300px;
+  Width: 400px;
 }
 
-.topnav {
+.topnav, .footerbar {
   background-color: grey;
  overflow: hidden;
 }
-.topnav a {
+.topnav a, .footerbar a {
+display: block;
  float: left;
   color: #F2F2F2;
-;
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -49,27 +38,12 @@ a {
 }
 
 
- {topnav a.active {
+ .topnav a.active {
   background-color: #04AA6D
 ;
   color: white;
 }
 
-.menu a, .footbar{
-  background-color: grey;
-  margin:0%;
-  padding:0%;
-  overflow: hidden;
-}
-
- .menu a, .footbar a{
-  display:block;
-  padding: 14px 16px;
-  color: white;
-  text-decoration: none;
-  float: left;
-}
-
- .menu a, .footbar a:hover{
-  background-color: green;
+.topnav a:hover, .footerbar a:hover  {
+  background-color: steelblue;
 }
