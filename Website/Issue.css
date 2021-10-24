@@ -1,0 +1,49 @@
+body{
+  background-color: #00e1d9;
+  text-align: justify;
+}
+
+h1 {
+  color: #ed335f;
+  font-family: Copperplate;
+  font-size: 40px;
+  text-align: center;
+}
+
+.two {
+  font-size: 17px;
+}
+
+#polluted {
+  height:300px;
+  Width: 400px;
+}
+
+.topnav, .footerbar {
+  background-color: grey;
+ overflow: hidden;
+}
+.topnav a, .footerbar a {
+display: block;
+ float: left;
+  color: #F2F2F2;
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ font-size: 17px;
+}
+
+
+ .topnav a.active {
+  background-color: #04AA6D
+;
+  color: white;
+}
+
+.topnav a:hover, .footerbar a:hover  {
+  background-color: steelblue;
+}
