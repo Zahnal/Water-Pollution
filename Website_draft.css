@@ -24,6 +24,13 @@ h3 {
   width: 400px;
 }
 
+.six {
+  font-size: 20px;
+  text-align: justify;
+  background-color: orange;
+  weight: 20%;
+}
+
 .topnav, .footerbar {
   background-color: grey;
  overflow: hidden;
